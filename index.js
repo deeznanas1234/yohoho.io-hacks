@@ -1,0 +1,23 @@
+// Sets Player Skin To Skin #35
+localStorage.setItem("playerSkin", 35);
+
+// Sets Player Pet To Pet #9
+localStorage.setItem("playerPet", 9);
+
+// Sets Player XP to 100,000 (Village Map)
+localStorage.setItem("playerXP", 100000);
+
+// Unlocks All Skins
+localStorage.setItem("unlockedSkins", JSON.stringify([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]));
+
+// Unlocks All Pets
+localStorage.setItem("unlockedPets", JSON.stringify([1, 2, 3, 4, 5, 6, 7, 8, 9]));
+
+// Sets Pet Level To Max
+localStorage.setItem("playerPetLevel", 14);
+
+// Sets Coins to 100,000 (Turned off by default because there is nothing left to buy)
+// localStorage.setItem("coinsOwned", 100000);
+
+// Reloads The page
+window.location.reload();
